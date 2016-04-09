@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.dropfile__box {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.dropfile__box > span {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.slider__box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slider__page {
+  display: none;
+  flex: 1 1 100vw;
+  height: 100vh;
+}
+.slider__page.visible {
+  display: block;
+}
