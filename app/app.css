@@ -13,11 +13,18 @@ img {
   margin-bottom: -1.45em;
 }
 
+.menu__box {
+  padding: .4rem;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
 .dropfile__box {
   display: flex;
   align-items: center;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 37px);
+  font-size: 2em;
 }
 
 .dropfile__box > span {
