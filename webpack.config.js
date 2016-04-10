@@ -22,6 +22,6 @@ module.exports = {
   resolve: {
   },
   plugins: [
-    new webpack.ExternalsPlugin('commonjs', ['electron', 'fs']),
+    new webpack.ExternalsPlugin('commonjs', ['electron', 'fs', 'path']),
   ],
 };

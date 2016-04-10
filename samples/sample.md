@@ -7,6 +7,7 @@ foooo
 # page2
 
 barrr
+![sample](sample.jpg)
 
 ---
 
