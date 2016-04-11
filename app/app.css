@@ -30,6 +30,7 @@ img {
 }
 
 .menu__box {
+  -webkit-app-region: drag;
   padding: .4rem;
   border-bottom: 1px solid #ccc;
   text-align: center;
