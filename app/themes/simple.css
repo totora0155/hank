@@ -1,6 +1,6 @@
 h1 {
   position: absolute;
-  bottom: calc(50% + 37px);
+  bottom: 50%;
   transform: translateY(50%);
   margin: 0;
   font-size: 2em;

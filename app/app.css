@@ -15,7 +15,7 @@ img {
 
 .layout--ycenter {
   position: absolute;
-  bottom: calc(50% + 37px);
+  bottom: 50%;
   transform: translateY(50%);
   width: 100%;
 }
@@ -35,6 +35,17 @@ img {
   border-bottom: 1px solid #ccc;
   text-align: center;
 }
+.menu__box.hidden {
+  display: none;
+}
+.menu__box + .dropfile__box,
+.menu__box + .slider__box {
+  height: calc(100vh - 37px);
+}
+.menu__box + .slider__box h1,
+.menu__box + .slider__box layout-ycenter {
+  bottom: calc(50% + 37px);
+}
 
 .menu__separator {
   border-left: 1px solid #ccc;
@@ -45,7 +56,7 @@ img {
   display: flex;
   align-items: center;
   width: 100vw;
-  height: calc(100vh - 37px);
+  height: 100vh;
   font-size: 2em;
 }
 
