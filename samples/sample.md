@@ -4,7 +4,7 @@
 
 ## page1
 
-Lorem ipsum *dolor* sit amet, **consectetur** adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Lorem ipsum *dolor* sit amet, **consectetur** adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 - Lorem ipsum
 - Lorem ipsum
@@ -48,3 +48,10 @@ function foo() {
 |FOO|BAR|BAZ|
 |FOO|BAR|BAZ|
 |FOO|BAR|BAZ|
+
+---
+
+## page6
+
+![](sample.mp3)
+![](sample.mp4)
