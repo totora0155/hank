@@ -13,6 +13,22 @@ img {
   margin-bottom: -1.45em;
 }
 
+.layout--ycenter {
+  position: absolute;
+  bottom: calc(50% + 37px);
+  transform: translateY(50%);
+  width: 100%;
+}
+
+.layout--flex {
+  display: flex;
+}
+.layout--flex > a {
+  flex: 1 1 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
 .menu__box {
   padding: .4rem;
   border-bottom: 1px solid #ccc;
