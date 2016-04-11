@@ -19,6 +19,11 @@ img {
   text-align: center;
 }
 
+.menu__separator {
+  border-left: 1px solid #ccc;
+  margin: 0 .5em;
+}
+
 .dropfile__box {
   display: flex;
   align-items: center;
