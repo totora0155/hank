@@ -14,6 +14,31 @@ video {
   margin-bottom: -1.45em;
 }
 
+@font-face {
+  font-family: 'hank-logo';
+  src: url('hank-logo-font/logo.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class*=icon__]:before {
+	display: inline-block;
+  font-family: 'hank-logo';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class*=icon__].decorate:before {
+  margin-right: .5em;
+  font-size: .8em;
+}
+
+.icon__logo:before{
+  content:'\0041';
+}
+
 .layout--ycenter {
   position: absolute;
   bottom: 50%;
