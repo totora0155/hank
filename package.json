@@ -3,7 +3,7 @@
   "productName": "hank",
   "version": "0.1.0",
   "description": "",
-  "main": "main.js",
+  "main": "app/main.js",
   "scripts": {
     "generate:icns": "(cd media; iconutil -c icns hank.iconset && mv hank.icns ../app)",
     "start": "cross-env NODE_ENV=develop gulp script:watch",
