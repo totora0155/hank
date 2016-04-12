@@ -6,7 +6,7 @@
   "main": "main.js",
   "scripts": {
     "generate:icns": "(cd media; iconutil -c icns hank.iconset && mv hank.icns ../app)",
-    "start": "gulp script:watch",
+    "start": "cross-env NODE_ENV=develop gulp script:watch",
     "test": "cross-env NODE_ENV=test ava"
   },
   "bin": {
@@ -72,6 +72,7 @@
   "dependencies": {
     "cheerio": "^0.20.0",
     "classnames": "^2.2.3",
+    "electron-json-storage": "^2.0.0",
     "marked": "^0.3.5",
     "postcss": "^5.0.19",
     "react": "^0.14.7",
