@@ -70,7 +70,6 @@
     "xo": "^0.14.0"
   },
   "dependencies": {
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4",
     "cheerio": "^0.20.0",
     "classnames": "^2.2.3",
     "electron-json-storage": "^2.0.0",
