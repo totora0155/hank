@@ -5,6 +5,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "generate:icns": "(cd media; iconutil -c icns hank.iconset && mv hank.icns ../app)",
     "start": "gulp script:watch"
   },
   "bin": {
